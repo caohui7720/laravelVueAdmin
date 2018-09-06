@@ -14,7 +14,8 @@ import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.use(ElementUI);
 
-import router from './router/index'
+import router from './router/index';
+import store from './vuex/store';
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -26,5 +27,6 @@ import router from './router/index'
 const app = new Vue({
     el: '#app',
     router,
+    store,
     render:h => h(App)
 });
