@@ -6108,7 +6108,7 @@ exports = module.exports = __webpack_require__(48)(false);
 
 
 // module
-exports.push([module.i, "\n.el-menu{\n    border-right: none;\n}\n.el-menu-item-group__title{\n    padding: 0;\n}\n.el-form-item{\n    margin-bottom: 10px;\n}\n.el-submenu__title, .el-menu-item{\n    height: 50px;\n    line-height: 50px;\n}\n", ""]);
+exports.push([module.i, "\n.el-menu{\n    border-right: none;\n}\n.el-menu-item-group__title{\n    padding: 0;\n}\n.el-form-item{\n    margin-bottom: 10px;\n}\n.el-submenu__title, .el-menu-item{\n    height: 45px;\n    line-height: 45px;\n}\n.el-submenu .el-menu-item{\n    height: 45px;\n    line-height: 45px;\n}\n", ""]);
 
 // exports
 
@@ -6505,9 +6505,9 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("strong", [
-        _vm._v("Copyright © 2014-2016 "),
-        _c("a", { attrs: { href: "http://almsaeedstudio.com" } }, [
-          _vm._v("Almsaeed Studio")
+        _vm._v("Copyright © 2018 "),
+        _c("a", { attrs: { href: "http://blog.icaohui.top" } }, [
+          _vm._v("caohui")
         ]),
         _vm._v(".")
       ]),
@@ -53119,18 +53119,7 @@ if (inBrowser && window.Vue) {
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */]);
 
-/* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */].Store({
-    state: {
-        todos: [{ id: 1, text: '...', done: true }, { id: 2, text: '...', done: false }]
-    },
-    getters: {
-        doneTodos: function doneTodos(state) {
-            return state.todos.filter(function (todo) {
-                return todo.done;
-            });
-        }
-    }
-}));
+/* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */].Store({}));
 
 /***/ }),
 /* 207 */

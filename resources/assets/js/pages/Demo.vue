@@ -123,7 +123,7 @@
             let self = this;
             setTimeout(function () {
                 self.loading = false;
-            }, 2000);
+            }, 1000);
         },
         methods: {
             onSubmit() {

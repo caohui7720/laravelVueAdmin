@@ -72,8 +72,11 @@
         margin-bottom: 10px;
     }
     .el-submenu__title, .el-menu-item{
-        height: 50px;
-        line-height: 50px;
-
+        height: 45px;
+        line-height: 45px;
+    }
+    .el-submenu .el-menu-item{
+        height: 45px;
+        line-height: 45px;
     }
 </style>
